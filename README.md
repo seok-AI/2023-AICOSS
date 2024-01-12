@@ -1,6 +1,11 @@
 # 2023-AICOSS
 [2023 AICOSS hackathon competition](https://dacon.io/competitions/official/236201/overview/description)
 
+<figure>
+    <img src="/pngs/banner.png" />
+</figure>
+
+
 ## Content
 1. [train val split](#train-val-split)
 2. [Training](#Training)
