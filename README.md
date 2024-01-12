@@ -1,9 +1,5 @@
 # 2023-AICOSS
-[2023 AICOSS hackathon competition](https://dacon.io/competitions/official/236201/overview/description)
-<figure>
-    <img src="/pngs/banner.png" />
-</figure>
-
+2023 AICOSS hackathon competition
 [![2023 AICOSS hackathon competition](/pngs/banner.png)](https://dacon.io/competitions/official/236201/overview/description)
 
 ## Content
@@ -74,7 +70,7 @@ python main.py \
 --gpu 0
 ```
 
-[Train Codes](https://github.com/seok-AI/2023-AICOSS/blob/main/MODEL_WEIGHT.md)
+[Train Codes](/MODEL_WEIGHT.md)
 
 
 ## preprocessing
