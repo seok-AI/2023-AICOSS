@@ -16,8 +16,15 @@
 
 The above six models can be Ensemble with single RTX 3090 GPU. (Batch Size 512)
 
+## Additional Weights
 
+|Model Name|Loss|Prior|LR|MIN_LR|Augment|Batch Size|DDP|GradAccumulation|
+|---|---|---|---|---|---|---|---|---|
+|[CvT384-Q2L](https://drive.google.com/file/d/13k11HHn-4d59HMN4H-4VD1qGO9_6eqi2/view?usp=sharing)|P-ASL|X|3e-4|1e-6|Weak|256|O|8|
 
+<br/>
+<br/>
+<br/>
 
 
 
@@ -60,8 +67,9 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 ```
 
 
-
-
+<br/>
+<br/>
+<br/>
 
 |Ensemble|Public mAP|Private mAP|Single GPU Train Time|Multi GPU Train Time|
 |---|---|---|---|---|
@@ -71,5 +79,6 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
 |6-Model + CvT384 + SwinV2|0.97848|---|-|??|
 
-
-
+All of the examples shown here were trained using single RTX 3090.
+Please refer to the github below for the two models (CvT_Q2L & CvT384_Q2L) 
+DDP with RTX 3090 x 4
