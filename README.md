@@ -64,13 +64,13 @@ python main.py --gpu 2 \
 </figure> -->
 
 <figure>
-    <img src="/pngs/cutout.png" />
+    <img src="/pngs/cutout.png" width="700" height="260" />
 </figure>
 
 **RandAugment**
 
 <figure>
-    <img src="/pngs/RandAugment.png" width="800" height="600" />
+    <img src="/pngs/RandAugment.png" width="647" height="547" />
 </figure>
 
 [RandAugment paper](https://arxiv.org/pdf/1909.13719.pdf)
@@ -78,14 +78,14 @@ python main.py --gpu 2 \
 **AutoAugment**
 
 <figure>
-    <img src="/pngs/AutoAugment.png" width="800" height="600" />
+    <img src="/pngs/AutoAugment.png" width="629" height="420" />
 </figure>
 [AutoAugment paper](https://arxiv.org/pdf/1805.09501.pdf)
 
 ## Loss
 **PartialSelectiveLoss**
 <figure>
-    <img src="/pngs/PASL.png" width="800" height="400" />
+    <img src="/pngs/PASL.png" width="900" height="300" />
 </figure>
 [PartialSelectiveLoss paper](https://arxiv.org/pdf/2110.10955.pdf)
 
@@ -93,7 +93,7 @@ python main.py --gpu 2 \
 **TResNet v2 L + ML decoder**
 
 <figure>
-    <img src="/pngs/MLDecoder.png" width="800" height="600" />
+    <img src="/pngs/MLDecoder.png" width="581" height="418" />
 </figure>
 
 [TresNet paper](https://arxiv.org/pdf/2003.13630.pdf)
