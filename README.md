@@ -64,7 +64,7 @@ python main.py --gpu 2 \
 </figure> -->
 
 <figure>
-    <img src="/pngs/cutout.png" width="700" height="260" />
+    <img src="/pngs/cutout.png" width="600" height="230" />
 </figure>
 
 **RandAugment**
