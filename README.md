@@ -1,11 +1,6 @@
 # 2023-AICOSS
 [![2023 AICOSS hackathon competition](/pngs/banner.png)](https://dacon.io/competitions/official/236201/overview/description)
 
-Topic: Satellite image multi-label classification
-
-Host: University of Seoul Artificial Intelligence Innovation and Convergence University Project Group
-Presented by: Dacon
-Support: HD Modern Site Solutions
 
 ## Content
 1. [train val split](#train-val-split)
