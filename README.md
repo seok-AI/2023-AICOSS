@@ -60,13 +60,13 @@ python main.py --gpu 2 \
 **Cutout**
 
 <figure>
-    <img src="/pngs/Cutout.png" width="600" height="400" />
+    <img src="/pngs/Cutout.png" width="1200" height="800" />
 </figure>
 
 **RandAugment**
 
 <figure>
-    <img src="/pngs/RandAugment.png" width="600" height="400" />
+    <img src="/pngs/RandAugment.png" width="900" height="600" />
 </figure>
 
 [RandAugment paper](https://arxiv.org/pdf/1909.13719.pdf)
@@ -74,7 +74,7 @@ python main.py --gpu 2 \
 **AutoAugment**
 
 <figure>
-    <img src="/pngs/AutoAugment.png" width="600" height="400" />
+    <img src="/pngs/AutoAugment.png" width="900" height="600" />
 </figure>
 [AutoAugment paper](https://arxiv.org/pdf/1805.09501.pdf)
 
@@ -89,7 +89,7 @@ python main.py --gpu 2 \
 **TResNet v2 L + ML decoder**
 
 <figure>
-    <img src="/pngs/MLDecoder.png" width="600" height="400" />
+    <img src="/pngs/MLDecoder.png" width="900" height="600" />
 </figure>
 
 [TresNet paper](https://arxiv.org/pdf/2003.13630.pdf)
