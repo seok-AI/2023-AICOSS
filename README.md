@@ -59,11 +59,15 @@ python main.py --gpu 2 \
 ## preprocessing
 **Cutout**
 
-![image](https://github.com/seok-AI/2023-AICOSS/assets/85815265/6f7dadbb-581d-4eab-9413-9efe7684e0ee)
+<figure>
+    <img src="/pngs/Cutout.png" width="600" height="400" />
+</figure>
 
 **RandAugment**
 
-![image](https://github.com/seok-AI/2023-AICOSS/assets/85815265/60241cc7-e2f9-48fc-9640-19be40115592)
+<figure>
+    <img src="/pngs/RandAugment.png" width="600" height="400" />
+</figure>
 
 [RandAugment paper](https://arxiv.org/pdf/1909.13719.pdf)
 
@@ -76,13 +80,17 @@ python main.py --gpu 2 \
 
 ## Loss
 **PartialSelectiveLoss**
-![image](https://github.com/seok-AI/2023-AICOSS/assets/85815265/448469dd-68be-4e18-9807-a7f22ba43d35)
+<figure>
+    <img src="/pngs/PASL.png" width="600" height="400" />
+</figure>
 [PartialSelectiveLoss paper](https://arxiv.org/pdf/2110.10955.pdf)
 
 ## Model
 **TResNet v2 L + ML decoder**
 
-![image](https://github.com/seok-AI/2023-AICOSS/assets/85815265/3555bab4-fce5-4357-9177-63e4dd77422b)
+<figure>
+    <img src="/pngs/MLDecoder.png" width="600" height="400" />
+</figure>
 
 [TresNet paper](https://arxiv.org/pdf/2003.13630.pdf)
 
@@ -126,7 +134,9 @@ When augmentation was not performed, validation loss increased and overfitting o
 
 
 ## Leaderboard
-![image](https://github.com/seok-AI/2023-AICOSS/assets/85815265/19eb5f24-ba9e-4fd0-9c51-1ec44ddd3cd7)
+<figure>
+    <img src="/pngs/uosota.png" width="600" height="400" />
+</figure>
 
 
 
