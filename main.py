@@ -31,7 +31,7 @@ parser.add_argument('--gpu', default='0', type=str)
 parser.add_argument('--augment', default='weak', type=str, choices = ['strong', 'weak'])
 
 parser.add_argument('--model_name', default='tresnet_l_learnable_mldecoder', choices = model_list)
-parser.add_argument('--path', default='/home/6210seok/UOS_DACON/DATA/')
+parser.add_argument('--path', default='/data/')
 parser.add_argument('--loss_name', default='PartialSelectiveLoss', choices = loss_list)
 parser.add_argument('--project', default='SOTA')
 parser.add_argument('--use_prior', action="store_true") # 입력 시 True
@@ -71,7 +71,7 @@ if args.loss_name == 'PartialSelectiveLoss':
     parser.add_argument('--alpha_neg', type=float, default=1)
     parser.add_argument('--alpha_unann', type=float, default=1)
     parser.add_argument('--likelihood_topk', type=int, default=5)
-    parser.add_argument('--prior_path', type=str, default=None)
+    parser.add_argument('--prior_path', type=str, default='/2023-AICOSS/')
     parser.add_argument('--prior_threshold', type=float, default=0.05)
     # parser.add_argument('-b', '--batch-size', default=160, type=int,
     #                     metavar='N', help='mini-batch size (default: 64)')
