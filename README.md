@@ -44,14 +44,25 @@ We executed a methodical assessment of the class-wise ratio disparities between 
 Through the above method, we compared the training mAP of worst seed (77) and best seed (78) and the val mAP. While the training map is almost the same, the validation mAP of worst seed is performing much worse
 
 ## Training
+
 ```bash
-python main.py --gpu 2 \
---model_name tresnetv2_l_learnable_mldecoder \
---batch_size 128 \
---magnitude 9 \
---img_size 224 \
+git clone https://github.com/seok-AI/2023-AICOSS
+cd 2023-AICOSS/
+conda env create -f aicoss.yaml
+```
+
+```bash
+conda activate aicoss
+
+python main.py \
+--model_name tresnet_xl_mldecoder \
+--loss_name PartialSelectiveLoss \
 --epochs 10 \
---loss_name PartialSelectiveLoss
+--lr 3e-4 \
+--min_lr 1e-6 \
+--weight_decay 1e-5 \
+--augment weak \
+--gpu 0
 ```
 
 
