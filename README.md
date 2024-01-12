@@ -59,8 +59,12 @@ python main.py --gpu 2 \
 ## preprocessing
 **Cutout**
 
-<figure>
+<!-- <figure>
     <img src="/pngs/cutout.png" width="800" height="600" />
+</figure> -->
+
+<figure>
+    <img src="/pngs/cutout.png" />
 </figure>
 
 **RandAugment**
