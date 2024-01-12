@@ -139,7 +139,7 @@ When augmentation was not performed, validation loss increased and overfitting o
 
 ## Leaderboard
 <figure>
-    <img src="/pngs/uosota.png" width="800" height="600" />
+    <img src="/pngs/uosota.png" width="1194" height="498" />
 </figure>
 
 
