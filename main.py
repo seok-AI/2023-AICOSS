@@ -71,7 +71,7 @@ if args.loss_name == 'PartialSelectiveLoss':
     parser.add_argument('--alpha_neg', type=float, default=1)
     parser.add_argument('--alpha_unann', type=float, default=1)
     parser.add_argument('--likelihood_topk', type=int, default=5)
-    parser.add_argument('--prior_path', type=str, default='/2023-AICOSS/')
+    parser.add_argument('--prior_path', type=str, default='/2023-AICOSS/prior.csv')
     parser.add_argument('--prior_threshold', type=float, default=0.05)
     # parser.add_argument('-b', '--batch-size', default=160, type=int,
     #                     metavar='N', help='mini-batch size (default: 64)')
