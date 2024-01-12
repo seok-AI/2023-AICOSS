@@ -14,6 +14,9 @@
 |[TResNet_XL_Learnable_ML-Decoder](https://drive.google.com/file/d/1-3oIn3zzd6hHrPembaP6_g-ahQdWjiaf/view?usp=sharing)|P-ASL|O|3e-4|1e-5|Strong|128|X|
 
 
+
+
+
 The above six models can be Ensemble with single RTX 3090 GPU. (Batch Size 512)
 
 
@@ -24,6 +27,12 @@ The above six models can be Ensemble with single RTX 3090 GPU. (Batch Size 512)
 |6-Model|0.97618|---|6h|<2h|
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
 |6-Model + CvT384 + SwinV2|0.97848|---|-|??|
+
+
+
+
+
+
 
 
 TResNet_XL_ML-Decoder_P-ASL
