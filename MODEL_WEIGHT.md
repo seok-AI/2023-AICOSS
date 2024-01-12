@@ -14,21 +14,7 @@
 |[TResNet_XL_Learnable_ML-Decoder](https://drive.google.com/file/d/1-3oIn3zzd6hHrPembaP6_g-ahQdWjiaf/view?usp=sharing)|P-ASL|O|3e-4|1e-5|Strong|128|X|
 
 
-
-
-
 The above six models can be Ensemble with single RTX 3090 GPU. (Batch Size 512)
-
-
-|Ensemble|Public mAP|Private mAP|Single GPU Train Time|Multi GPU Train Time|
-|---|---|---|---|---|
-|Single Model|0.96904|---|1h|<20m|
-|3-Model|0.97421|---|3h|<1h|
-|6-Model|0.97618|---|6h|<2h|
-|6-Model + CvT384|0.97705|0.97764|-|<9h|
-|6-Model + CvT384 + SwinV2|0.97848|---|-|??|
-
-
 
 
 
@@ -72,3 +58,18 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 --lr 3e-4 --min_lr 1e-5 --weight_decay 1e-5 \
 --augment strong --use_prior --gpu 0
 ```
+
+
+
+
+
+|Ensemble|Public mAP|Private mAP|Single GPU Train Time|Multi GPU Train Time|
+|---|---|---|---|---|
+|Single Model|0.96904|---|1h|<20m|
+|3-Model|0.97421|---|3h|<1h|
+|6-Model|0.97618|---|6h|<2h|
+|6-Model + CvT384|0.97705|0.97764|-|<9h|
+|6-Model + CvT384 + SwinV2|0.97848|---|-|??|
+
+
+
