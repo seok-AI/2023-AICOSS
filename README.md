@@ -36,8 +36,8 @@ We executed a methodical assessment of the class-wise ratio disparities between 
 
 <table>
   <tr>
-    <td><img src="/pngs/77_vs_78_train_map.png" width="500" height="400" /></td>
-    <td><img src="/pngs/77_vs_78_val_map.png" width="500" height="400" /></td>
+    <td><img src="/pngs/77_vs_78_train_map.png" width="450" height="350" /></td>
+    <td><img src="/pngs/77_vs_78_val_map.png" width="450" height="350" /></td>
   </tr>
 </table>
 
@@ -104,12 +104,12 @@ python main.py --gpu 2 \
 
 <table>
   <tr>
-    <td><img src="/pngs/Ablation_Study_Train_Loss.png" width="500" height="400" /></td>
-    <td><img src="/pngs/Ablation_Study_Val_Loss.png" width="500" height="400" /></td>
+    <td><img src="/pngs/Ablation_Study_Train_Loss.png" width="450" height="350" /></td>
+    <td><img src="/pngs/Ablation_Study_Val_Loss.png" width="450" height="350" /></td>
   </tr>
   <tr>
-    <td><img src="/pngs/Ablation_Study_Train_mAP.png" width="500" height="400" /></td>
-    <td><img src="/pngs/Ablation_Study_Val_mAP.png" width="500" height="400" /></td>
+    <td><img src="/pngs/Ablation_Study_Train_mAP.png" width="450" height="350" /></td>
+    <td><img src="/pngs/Ablation_Study_Val_mAP.png" width="450" height="350" /></td>
   </tr>
 </table>
 
