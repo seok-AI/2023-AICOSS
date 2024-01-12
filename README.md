@@ -45,6 +45,7 @@ Through the above method, we compared the training mAP of worst seed (77) and be
 
 ## Training
 
+Virtual Environment Settings
 ```bash
 git clone https://github.com/seok-AI/2023-AICOSS
 cd 2023-AICOSS/
@@ -53,7 +54,10 @@ conda env create -f aicoss.yaml
 
 ```bash
 conda activate aicoss
+```
 
+training example
+```bash
 python main.py \
 --model_name tresnet_xl_mldecoder \
 --loss_name PartialSelectiveLoss \
@@ -65,6 +69,7 @@ python main.py \
 --gpu 0
 ```
 
+[Train Codes](https://github.com/seok-AI/2023-AICOSS/blob/main/MODEL_WEIGHT.md)
 
 
 ## preprocessing
