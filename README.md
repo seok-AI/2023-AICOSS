@@ -127,8 +127,8 @@ When augmentation was not performed, validation loss increased and overfitting o
 ## Result
 <table>
   <tr>
-    <td><img src="/pngs/Single Model SOTA_val.png" width="500" height="400" /></td>
-    <td><img src="/pngs/Single Model SOTA_train.png" width="500" height="400" /></td>
+    <td><img src="/pngs/Single Model SOTA_val.png" width="450" height="350" /></td>
+    <td><img src="/pngs/Single Model SOTA_train.png" width="450" height="350" /></td>
   </tr>
 </table>
 
