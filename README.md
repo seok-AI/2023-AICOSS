@@ -136,7 +136,7 @@ For multi-GPU training, you can use [this repository](https://github.com/junpark
 When augmentation was not performed, validation loss increased and overfitting occurred. When only one augmentation was added, the performance was always better than when not added, and when all augmentation was applied, the best performance was achieved without overfitting.
 
 |Augment|Train mAP|Validation mAP|
-|---|---|---|
+|:---:|:---:|:---:|
 |None|1.0|0.9707|
 |AutoAugment|0.9989|0.9720|
 |Cutout|0.9971|0.9727|
