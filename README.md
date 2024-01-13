@@ -143,6 +143,12 @@ When augmentation was not performed, validation loss increased and overfitting o
 |All|0.9872|0.9751|
 
 ## Result
+
+<figure>
+    <img src="/pngs/multi_gpu.png" width="900" height="400" />
+</figure>
+
+
 <table>
   <tr>
     <td><img src="/pngs/Single Model SOTA_val.png" width="450" height="350" /></td>
