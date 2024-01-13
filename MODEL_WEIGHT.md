@@ -77,6 +77,6 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
 |6-Model + CvT384 + SwinV2|0.97848|---|-|??|
 
-All of the examples shown here were trained using single RTX 3090.
+All of the examples shown here were trained using single RTX 3090
 Please refer to the github below for the two models (CvT_Q2L & CvT384_Q2L) 
 DDP with RTX 3090 x 4
