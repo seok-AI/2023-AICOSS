@@ -137,7 +137,7 @@ When augmentation was not performed, validation loss increased and overfitting o
 |Augment|Train mAP|Validation mAP|
 |---|---|---|
 |None|1.0|0.9707|
-|AutoAugment|0.9989|0.9727|
+|AutoAugment|0.9989|0.9720|
 |Cutout|0.9971|0.9727|
 |All|0.9872|0.9751|
 
