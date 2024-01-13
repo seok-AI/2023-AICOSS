@@ -70,8 +70,9 @@ python main.py \
 --gpu 0
 ```
 
-[Train Codes](/MODEL_WEIGHT.md)
+[Training Codes](/MODEL_WEIGHT.md)
 
+For multi-GPU training, you can use [this repository](https://github.com/junpark-ai/AICOSS).
 
 ## preprocessing
 **Cutout**
