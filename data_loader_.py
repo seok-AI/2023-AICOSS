@@ -33,7 +33,7 @@ def My_DataLoader(train_data, args, val_data=None, test_data=None, num_workers=1
             transforms.Resize((args.img_size, args.img_size)), 
             transforms.RandomHorizontalFlip(0.5),
             transforms.RandomVerticalFlip(0.5),
-            CutoutPIL(cutout_factor=0.5),
+            CutoutPIL(cutout_factor=args.cutout_factor),
             transforms.AutoAugment(),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
@@ -41,7 +41,7 @@ def My_DataLoader(train_data, args, val_data=None, test_data=None, num_workers=1
     else:
         train_transform = transforms.Compose([
             transforms.Resize((args.img_size, args.img_size)), 
-            CutoutPIL(cutout_factor=0.5),
+            CutoutPIL(cutout_factor=args.cutout_factor),
             transforms.RandAugment(args.magnitude),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])

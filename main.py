@@ -29,6 +29,7 @@ parser.add_argument('--magnitude', default=9, type=int)
 parser.add_argument('--seed', default=41, type=int)
 parser.add_argument('--gpu', default='0', type=str)
 parser.add_argument('--augment', default='weak', type=str, choices = ['strong', 'weak'])
+parser.add_argument('--cutout_factor', default=0.5, type=float)
 
 parser.add_argument('--model_name', default='tresnet_l_learnable_mldecoder', choices = model_list)
 parser.add_argument('--path', default='/data/')
