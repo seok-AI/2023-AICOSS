@@ -5,7 +5,7 @@
 ## Weights
 
 |Model Name|Loss|Prior|LR|MIN_LR|Augment|Batch Size|DDP|
-|---|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[TResNet_v2_L_ML-Decoder](https://drive.google.com/file/d/1-IbW3bcqPh00QD5LYFqqPdtL-c-VD1Oo/view?usp=sharing)|ZLPR|-|3e-4|1e-6|Weak|128|X|
 |[TResNet_XL_ML-Decoder](https://drive.google.com/file/d/1-4IsvCrmixW7dFYqe3Oo6a9D5tHURNQa/view?usp=sharing)|Two-Way|-|3e-4|1e-6|Weak|128|X|
 |[TResNet_XL_ML-Decoder](https://drive.google.com/file/d/1-3vIOifnBwPmFoANO2-Z0fQ-EgKIOdS6/view?usp=sharing)|P-ASL|X|3e-4|1e-6|Weak|128|X|
