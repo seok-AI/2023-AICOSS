@@ -75,7 +75,7 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 |3-Model|0.97421|---|3h|<1h|
 |6-Model|0.97618|0.97707|6h|<2h|
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
-|6-Model + CvT384 + SwinV2|0.97848|0.97914|-|??|
+|6-Model + CvT384 + SwinV2|0.97848|0.97914|-|<13h|
 
 All of the examples shown here were trained using single RTX 3090
 
