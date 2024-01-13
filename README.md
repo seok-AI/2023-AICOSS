@@ -149,7 +149,7 @@ When augmentation was not performed, validation loss increased and overfitting o
 </figure>
 
 |Ensemble|Public mAP|Private mAP|Single GPU|Multi GPU|
-|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 |Single Model|0.96904|0.96805|1h|<20m|
 |3-Model|0.97478|0.97547|3h|<1h|
 |6-Model|0.97618|0.97707|6h|<2h|
