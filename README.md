@@ -42,6 +42,11 @@ We executed a methodical assessment of the class-wise ratio disparities between 
   </tr>
 </table>
 
+|split seed|mean|std|train mAP|val mAP|
+|:---:|:---:|:---:|:---:|:---:|
+|77|0.32|0.41|0.9557|0.9665|
+|78|0.02|0.22|0.9533|0.9752|
+
 Through the above method, we compared the training mAP of worst seed (77) and best seed (78) and the val mAP. While the training map is almost the same, the validation mAP of worst seed is performing much worse
 
 ## Training
