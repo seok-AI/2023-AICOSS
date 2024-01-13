@@ -82,7 +82,7 @@ All of the examples shown here were trained using single RTX 3090
 ## Time vs. mAP
 
 <figure>
-    <img src="/pngs/single_gpu.png" width="900" height="400" />
+    <img src="/pngs/single_gpu.png" />
 </figure>
 
 <figure>
