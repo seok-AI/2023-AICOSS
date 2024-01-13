@@ -20,7 +20,7 @@ class swinv2(nn.Module):
         self.cls = nn.Linear(1024, 60)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -38,7 +38,7 @@ class resnet50(nn.Module):
         self.cls = nn.Linear(2048, 60)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -57,7 +57,7 @@ class resnet101(nn.Module):
         self.cls = nn.Linear(2048, 60)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -76,14 +76,28 @@ class resnet50_mldecoder(nn.Module):
         self.mldecoder = MLDecoder(num_classes=60)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
         out = self.mldecoder(features_vit)
         return out
-    
-    
+
+
+class tresnet_xl(nn.Module):
+    def __init__(self):
+        super(tresnet_xl, self).__init__()
+
+        self.backbone = timm.create_model("tresnet_xl", pretrained=True)
+        self.backbone.head.fc = nn.Linear(2656, 60)
+        # Image Classifier
+
+    def forward(self, images):
+        # Feature Extractor
+        out = self.backbone(images)
+        return out
+
+
 class tresnet_xl_mldecoder(nn.Module):
     def __init__(self):
         super(tresnet_xl_mldecoder, self).__init__()
@@ -94,7 +108,7 @@ class tresnet_xl_mldecoder(nn.Module):
         self.mldecoder = MLDecoder(num_classes=60, initial_num_features=2656)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -111,7 +125,7 @@ class tresnet_xl_learnable_mldecoder(nn.Module):
         self.mldecoder = learnable_MLDecoder(num_classes=60, initial_num_features=2656)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -128,7 +142,7 @@ class tresnet_l_learnable_mldecoder(nn.Module):
         self.mldecoder = learnable_MLDecoder(num_classes=60, initial_num_features=2432)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -147,7 +161,7 @@ class swinv2_mldecoder(nn.Module):
         self.cls = MLDecoder(num_classes=60, initial_num_features=1024)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images).permute(0,3,1,2)
         # multi label classification
         out = self.cls(features_vit)
@@ -166,7 +180,7 @@ class tresnetv2_l_mldecoder(nn.Module):
         self.mldecoder = MLDecoder(num_classes=60, initial_num_features=2048)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification
@@ -183,7 +197,7 @@ class tresnetv2_l_learnable_mldecoder(nn.Module):
         self.mldecoder = learnable_MLDecoder(num_classes=60, initial_num_features=2048)
 
     def forward(self, images):
-        # Swin v2
+        # Feature Extractor
         features_vit = self.backbone(images)
         
         # multi label classification

@@ -11,7 +11,7 @@ import argparse
 
 model_list = ['resnet101', 'resnet50', 'resnet50_mldecoder', 'swinv2', 'swinv2_mldecoder', 'cvt_q2l',
               'tresnet_l_learnable_mldecoder', 'tresnet_xl_learnable_mldecoder', 'tresnet_xl_mldecoder', 
-                'tresnet_xl_q2l', 'tresnetv2_l_mldecoder', 'tresnetv2_l_learnable_mldecoder']
+                'tresnet_xl_q2l', 'tresnetv2_l_mldecoder', 'tresnetv2_l_learnable_mldecoder','tresnet_xl']
 
 loss_list = ['AsymmetricLoss', 'AsymmetricLossOptimized'
              'PartialSelectiveLoss', 'TwoWayLoss',
