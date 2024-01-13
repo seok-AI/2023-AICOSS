@@ -145,7 +145,7 @@ When augmentation was not performed, validation loss increased and overfitting o
 ## Result
 
 <figure>
-    <img src="/pngs/multi_gpu.png" width="900" height="400" />
+    <img src="/pngs/multi_gpu_.png" width="900" height="400" />
 </figure>
 
 
