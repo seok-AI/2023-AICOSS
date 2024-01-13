@@ -86,7 +86,7 @@ All of the examples shown here were trained using single RTX 3090
 </figure>
 
 <figure>
-    <img src="/pngs/multi_gpu.png" width="900" height="400" />
+    <img src="/pngs/multi_gpu.png" />
 </figure>
 
 ## Multi GPU
