@@ -65,7 +65,7 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 --augment strong --use_prior --gpu 0
 ```
 
-## Multi GPU
+## Multi GPU Training code
 
 Please refer to the github below for the two models (CvT_Q2L & CvT384_Q2L) 
 DDP with RTX 3090 x 4
@@ -86,7 +86,7 @@ DDP with RTX 3090 x 4
 
 All of the examples shown here were trained using single RTX 3090
 
-## Time vs. mAP
+<!-- ## Time vs. mAP
 
 <figure>
     <img src="/pngs/single_gpu.png" />
@@ -95,6 +95,6 @@ All of the examples shown here were trained using single RTX 3090
 <figure>
     <img src="/pngs/multi_gpu.png" />
 </figure>
-
+ -->
 
 
