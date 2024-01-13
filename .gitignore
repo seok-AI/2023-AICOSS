@@ -1,7 +1,7 @@
 # : comments
 
 # no .a files
-*.csv
+# *.csv
 *.pt
 *.pyc
 *.sh
