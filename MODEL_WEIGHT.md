@@ -20,7 +20,7 @@ The above six models can be Ensemble with single RTX 3090 GPU. (Batch Size 512)
 ## Additional Weights
 
 |Model Name|Loss|Prior|LR|MIN_LR|Augment|Batch Size|DDP|GradAccumulation|
-|---|---|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[CvT384_Q2L](https://drive.google.com/file/d/13k11HHn-4d59HMN4H-4VD1qGO9_6eqi2/view?usp=sharing)|P-ASL|X|3e-4|1e-6|Weak|256|O|8|
 
 <br/>
