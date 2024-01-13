@@ -5,6 +5,14 @@ import torch
 from torch import nn as nn, Tensor
 import torch.nn.functional as F
 
+class BCELogitLoss(nn.Module):
+    def __init__(self):
+        super(BCELogitLoss, self).__init__()
+        
+        self.bce = nn.BCEWithLogitsLoss()
+
+    def forward(self, x, y):
+        return self.bce(x, y)
 
 class zlpr(nn.Module):
     def __init__(self, eps=1):

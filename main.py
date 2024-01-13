@@ -13,9 +13,9 @@ model_list = ['resnet101', 'resnet50', 'resnet50_mldecoder', 'swinv2', 'swinv2_m
               'tresnet_l_learnable_mldecoder', 'tresnet_xl_learnable_mldecoder', 'tresnet_xl_mldecoder', 
                 'tresnet_xl_q2l', 'tresnetv2_l_mldecoder', 'tresnetv2_l_learnable_mldecoder']
 
-loss_list = ['AsymmetricLoss', 'AsymmetricLossOptimized', 'ComputePrior', 'FocalLoss', 
-             'PartialSelectiveLoss', 'TwoWayLoss', 'focal_binary_cross_entropy', 
-             'multilabel_categorical_crossentropy', 'zlpr', 'zlpr_smooth']
+loss_list = ['AsymmetricLoss', 'AsymmetricLossOptimized'
+             'PartialSelectiveLoss', 'TwoWayLoss',
+             'multilabel_categorical_crossentropy', 'BCELogitLoss']
 
 
 parser = argparse.ArgumentParser(description='PyTorch Training')
