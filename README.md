@@ -148,7 +148,7 @@ When augmentation was not performed, validation loss increased and overfitting o
     <img src="/pngs/multi_gpu_.png" />
 </figure>
 
-|Ensemble|Public mAP|Private mAP|Single GPU Train Time|Multi GPU Train Time|
+|Ensemble|Public mAP|Private mAP|Single GPU|Multi GPU|
 |---|---|---|---|---|
 |Single Model|0.96904|0.96805|1h|<20m|
 |3-Model|0.97478|0.97547|3h|<1h|
