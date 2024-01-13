@@ -12,7 +12,7 @@ class BCELogitLoss(nn.Module):
         self.bce = nn.BCEWithLogitsLoss()
 
     def forward(self, x, y):
-        return self.bce(x, y)
+        return self.bce(x, y.float())
 
 class zlpr(nn.Module):
     def __init__(self, eps=1):
@@ -434,11 +434,3 @@ class ComputePrior:
         print('Prior (train), first {} classes: {}'.format(n_top, top_classes))
         
         
-class BCELogitLoss(nn.Module):
-    def __init__(self):
-        super(BCELogitLoss, self).__init__()
-        
-        self.bce = nn.BCEWithLogitsLoss()
-
-    def forward(self, x, y):
-        return self.bce(x, y.float())
