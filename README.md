@@ -150,8 +150,8 @@ When augmentation was not performed, validation loss increased and overfitting o
 
 |Ensemble|Public mAP|Private mAP|Single GPU Train Time|Multi GPU Train Time|
 |---|---|---|---|---|
-|Single Model|0.96904|---|1h|<20m|
-|3-Model|0.97421|---|3h|<1h|
+|Single Model|0.96904|0.96805|1h|<20m|
+|3-Model|0.97478|0.97547|3h|<1h|
 |6-Model|0.97618|0.97707|6h|<2h|
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
 |6-Model + CvT384 + SwinV2|0.97848|0.97914|-|<13h|
