@@ -86,6 +86,16 @@ DDP with RTX 3090 x 4
 
 All of the examples shown here were trained using single RTX 3090
 
+## 6-Model Ensemble fp32 vs. fp16
+
+| |FP32|FP16|diff.|
+|:---:|:---:|:---:|:---:|
+|Inference time [sec]|493|289|-41.38%|
+|Inference speed [img/sec]|101.85|173.75|+70.59%|
+|Public mAP|0.97618|0.97614|-0.00410%|
+|Private mAP|0.97707|0.97702|-0.00512%|
+
+
 <!-- ## Time vs. mAP
 
 <figure>
