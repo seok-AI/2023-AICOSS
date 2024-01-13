@@ -65,6 +65,13 @@ python main.py --model_name tresnet_xl_learnable_mldecoder \
 --augment strong --use_prior --gpu 0
 ```
 
+## Multi GPU
+
+Please refer to the github below for the two models (CvT_Q2L & CvT384_Q2L) 
+DDP with RTX 3090 x 4
+
+[CvT_Q2L & CvT384_Q2L DDP](https://github.com/junpark-ai/AICOSS)
+
 <br/>
 
 ## Ensemble table
@@ -89,16 +96,5 @@ All of the examples shown here were trained using single RTX 3090
     <img src="/pngs/multi_gpu.png" />
 </figure>
 
-<table>
-  <tr>
-    <td><img src="/pngs/single_gpu.png" /></td>
-    <td><img src="/pngs/multi_gpu.png" /></td>
-  </tr>
-</table>
 
-## Multi GPU
 
-Please refer to the github below for the two models (CvT_Q2L & CvT384_Q2L) 
-DDP with RTX 3090 x 4
-
-[CvT_Q2L & CvT384_Q2L DDP](https://github.com/junpark-ai/AICOSS)
