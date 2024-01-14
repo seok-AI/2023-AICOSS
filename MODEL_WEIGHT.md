@@ -27,11 +27,12 @@ The above six models can be Ensemble with single RTX 3090 GPU. (Batch Size 512)
 
 ## Training code
 
-TResNet_XL_ML-Decoder_P-ASL
+TResNet_v2_L_ML-Decoder_ZLPR
 ```bash
-python main.py --model_name tresnet_xl_mldecoder \
---loss_name PartialSelectiveLoss --epochs 10 --lr 3e-4 \
---min_lr 1e-6 --weight_decay 1e-5 --augment weak --gpu 0
+python main.py --model_name tresnetv2_l_mldecoder \
+--loss_name multilabel_categorical_crossentropy --epochs 10 \
+--lr 3e-4 --min_lr 1e-6 --weight_decay 1e-5 \
+--augment weak --gpu 2
 ```
 
 TResNet_XL_ML-Decoder_Two-Way
@@ -41,12 +42,11 @@ python main.py --model_name tresnet_xl_mldecoder \
 --min_lr 1e-6 --weight_decay 1e-5 --augment weak --gpu 1
 ```
 
-TResNet_v2_L_ML-Decoder_ZLPR
+TResNet_XL_ML-Decoder_P-ASL
 ```bash
-python main.py --model_name tresnetv2_l_mldecoder \
---loss_name multilabel_categorical_crossentropy --epochs 10 \
---lr 3e-4 --min_lr 1e-6 --weight_decay 1e-5 \
---augment weak --gpu 2
+python main.py --model_name tresnet_xl_mldecoder \
+--loss_name PartialSelectiveLoss --epochs 10 --lr 3e-4 \
+--min_lr 1e-6 --weight_decay 1e-5 --augment weak --gpu 0
 ```
 
 TResNet_XL_Learnable_ML-Decoder_P-ASL
