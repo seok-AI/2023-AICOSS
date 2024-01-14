@@ -8,9 +8,9 @@ All 7 weights must be located at '/2023-AICOSS/sensible_code/weights/'
 
 Also, the names of all weights should be: 
                                     
-                                    ['cvt_q2l-pasl.pt', 'tresnet_xl_learnable_mldecoder-min_lr-1e-5.pt', 'tresnetv2_l_mldecoder-zlpr.pt',
-                                    'tresnet_xl_learnable_mldecoder-AutoAugment-H-V.pt','tresnet_xl_mldecoder-pasl.pt',
-                                    'tresnet_xl_mldecoder-two-loss.pt','cvt384_q2l-GradAccum8.pt']
+    ['cvt_q2l-pasl.pt', 'tresnet_xl_learnable_mldecoder-min_lr-1e-5.pt', 'tresnetv2_l_mldecoder-zlpr.pt',
+    'tresnet_xl_learnable_mldecoder-AutoAugment-H-V.pt','tresnet_xl_mldecoder-pasl.pt',
+    'tresnet_xl_mldecoder-two-loss.pt','cvt384_q2l-GradAccum8.pt']
 
 <br/>
 
