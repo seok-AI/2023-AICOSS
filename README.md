@@ -104,6 +104,7 @@ For multi-GPU training, you can use [this repository](https://github.com/junpark
 <figure>
     <img src="/pngs/AutoAugment.png" width="629" height="420" />
 </figure>
+
 [AutoAugment paper](https://arxiv.org/pdf/1805.09501.pdf)
 
 ## Loss
@@ -111,6 +112,7 @@ For multi-GPU training, you can use [this repository](https://github.com/junpark
 <figure>
     <img src="/pngs/PASL.png" width="900" height="300" />
 </figure>
+
 [PartialSelectiveLoss paper](https://arxiv.org/pdf/2110.10955.pdf)
 
 ## Model
