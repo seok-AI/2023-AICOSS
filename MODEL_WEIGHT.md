@@ -84,6 +84,10 @@ DDP with RTX 3090 x 4
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
 |6-Model + CvT384 + SwinV2|0.97848|0.97914|-|<13h|
 
+<figure>
+    <img src="/pngs/multi_gpu_.png" />
+</figure>
+
 All of the examples shown here were trained using single RTX 3090
 
 ## 6-Model Ensemble fp32 vs. fp16
