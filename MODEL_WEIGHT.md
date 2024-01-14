@@ -76,6 +76,11 @@ DDP with RTX 3090 x 4
 
 ## Ensemble table
 
+<figure>
+    <img src="/pngs/multi_gpu_.png" />
+</figure>
+
+
 |Ensemble|Public mAP|Private mAP|Single GPU Train Time|Multi GPU Train Time|
 |:---:|:---:|:---:|:---:|:---:|
 |Single Model|0.96904|0.96805|1h|<20m|
@@ -84,9 +89,6 @@ DDP with RTX 3090 x 4
 |6-Model + CvT384|0.97705|0.97764|-|<9h|
 |6-Model + CvT384 + SwinV2|0.97848|0.97914|-|<13h|
 
-<figure>
-    <img src="/pngs/multi_gpu_.png" />
-</figure>
 
 All of the examples shown here were trained using single RTX 3090
 
