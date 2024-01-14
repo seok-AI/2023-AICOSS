@@ -116,7 +116,7 @@ For multi-GPU training, you can use [this repository](https://github.com/junpark
 [PartialSelectiveLoss paper](https://arxiv.org/pdf/2110.10955.pdf)
 
 ## Model
-**TResNet v2 L + ML decoder**
+**TResNet + ML decoder**
 
 <figure>
     <img src="/pngs/MLDecoder.png" width="581" height="418" />
