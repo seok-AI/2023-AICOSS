@@ -102,7 +102,7 @@ All of the examples shown here were trained using single RTX 3090
 |Private mAP|0.97707|0.97702|-0.00512%|
 
 
-## Num parpameter of Models
+## Number of parameters in the model
 
 |Backbone|Decoder|# Parameter (Million)|
 |:---:|:---:|:---:|
