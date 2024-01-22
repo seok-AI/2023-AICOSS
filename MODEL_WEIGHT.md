@@ -102,6 +102,19 @@ All of the examples shown here were trained using single RTX 3090
 |Private mAP|0.97707|0.97702|-0.00512%|
 
 
+## Num parpameter of Models
+
+|Backbone|Decoder|# Parameter (Million)|
+|:---:|:---:|:---:|
+|ResNet50|FCN|23.63 M|
+|ResNet101|FCN|42.62 M|
+|TResNet_v2_L|ML-Decoder|51.26 M|
+|TResNet_XL|FCN|75.94 M|
+|TResNet_XL|ML-Decoder|83.38 M|
+|TResNet_XL|Learnable_ML-Decoder|83.42 M|
+|CvT_21|Q2L|36.75 M|
+|CvT384|Q2L|281.8 M|
+
 <!-- ## Time vs. mAP
 
 <figure>
